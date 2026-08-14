@@ -12,7 +12,8 @@ const ProductCard = ({ p }) => {
      2 === "2" // console false // it check datatype too string or number.
 
 
- // ek time pe 1 hi aaya he pure card pe loop he na ki product card ke andar. this component define only on card
+ // ek time pe 1 hi aaya he pure card pe loop he na ki product card ke andar. 
+ // this component define only on card
 
 
 
