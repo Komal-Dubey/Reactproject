@@ -8,6 +8,7 @@ import PasswordPage from "./pages/PasswordPage"
 import EcommercePage from "./pages/Ecommerce/EcommercePage"
 import Cart from "./pages/Ecommerce/Cart"
 import TodoPage from "./pages/Todoapp/TodoPage"
+import Inputtextfield from "./pages/Inputcheck/Inputtextfield"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/ecommerce" element={<EcommercePage />}/>
       <Route path="/cart" element={<Cart />}/>
       <Route path="/todopage" element={<TodoPage />} />
+      <Route path="/inputfield" element={<Inputtextfield />}/>
     </Routes>
   )
 }

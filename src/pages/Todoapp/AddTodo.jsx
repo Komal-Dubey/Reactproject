@@ -25,7 +25,7 @@ const AddTodo = ({isEditing, editingTodo, setisEditing, setEditTodo}) => { // pr
             setEditTodo(null);
         } else {
 
-            addTodo({ // 
+            addTodo({ 
                 id: Date.now(),
                 text: formdata.text,
                 priority: formdata.priority,
