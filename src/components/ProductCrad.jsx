@@ -66,7 +66,6 @@ const ProductCard = ({ p }) => {
                 </div>
             </div>
         </div>
-
     )
 }
 export default ProductCard;
