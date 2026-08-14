@@ -20,8 +20,7 @@ const TodoPage = () => {
     }
 
     // ye hmne child component se parent me data pass kia he 
-    // koi kambal odh raha he kisi go garmi lag rahi he
-
+   
     return (
         <div className=" h-screen w-full flex justify-center">
             <div className="border-2 w-[50%]">
